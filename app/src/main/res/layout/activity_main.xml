@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="351dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="160dp"
+        android:gravity="center"
+        android:text="Возможность покупки делового гардероба"
+        android:textColor="#600A0A"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/possibilityOut"
+        android:layout_width="369dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="#FBD7D7"
+        android:gravity="center"
+        android:text="Здесь будет отражена информация покупки делового гардероба"
+        android:textColor="#600A0A"
+        android:textColorHint="#FF9E9E"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="351dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Возможный остаток от покупки"
+        android:textColor="#600A0A"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/possibilityOut" />
+
+    <TextView
+        android:id="@+id/balanceOut"
+        android:layout_width="369dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="#FBD7D7"
+        android:gravity="center"
+        android:text="Здесь будет отражена информация возможного остатка от покупки"
+        android:textColor="#600A0A"
+        android:textColorHint="#FF9E9E"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="359dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="28dp"
+        android:background="#FBD7D7"
+        android:gravity="center"
+        android:text="Приложение покупки делового гардероба"
+        android:textColor="#600A0A"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.576"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
